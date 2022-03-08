@@ -6,11 +6,17 @@
 
 <div align="center">
   <h3>
-    <a href="https://{brave-northcutt-c075b5.netlify.app/}">Demo</a>
+    <a href="https://{brave-northcutt-c075b5.netlify.app/}">
+      Demo
+    </a>
     <span> | </span>
-    <a href="https://{github.com/sahajunior/My-Team-Page}">Solution</a>
+    <a href="https://{devchallenges.io/solutions/jMdihUCl4OH55bvaxYfu}">
+      Solution
+    </a>
     <span> | </span>
-    <a href="https://devchallenges.io/solutions/jMdihUCl4OH55bvaxYfu">Challenge</a>
+    <a href="https://devchallenges.io/challenges/hhmesazsqgKXrTkYkt0U">
+      Challenge
+    </a>
   </h3>
 </div>
 
