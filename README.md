@@ -35,13 +35,11 @@
 
 | Desktop View (Width: 1280px)                               | Tablet View (Width: 912px)                                                             | Mobile View (Width: 390px)                                                                 |
 | ---------------------------------------------------------- | -------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
-| ![Desktop View (1280px)](./Attachments/Desktop%20View.PNG) | ![Surface Pro 7 View (912px)](<./Attachments/Tablet%20View%20(Surface%20Pro%207).PNG>) | ![iPhone 12 Pro View (375px)](<./Attachments/Phone%20View(iPhone%2012%20Pro)%20-%201.PNG>) |
+| ![Desktop View (1280px)](./Attachments/Desktop%20View.PNG) | ![Surface Pro 7 View (912px)](<./Attachments/Tablet%20View%20(Surface%20Pro%207).PNG>) | ![iPhone 12 Pro View (390px)](<./Attachments/Phone%20View(iPhone%2012%20Pro)%20-%201.PNG>) |
 
-Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
+Introducing Project:
 
-- Here you can see the demo -><a href="https://{brave-northcutt-c075b5.netlify.app/}">
-  My Team Page
-  </a>
+- Here you can see the <a href="https://{brave-northcutt-c075b5.netlify.app/}">Demo</a>
 - It was a fantastic experience to work with e subtle web page.
 - I have earned the knowledge of css markup. For once I couldn't figure out how to set the #Role perfectly. Then, I have discovered the 'writing-mode: vertical-rl;' property.
 

@@ -13,13 +13,13 @@ body {
   scroll-behavior: smooth;
 }
 
+/* Main Container */
 #main-container {
   width: 90%;
   margin: 0 auto;
 }
 
 /* Header */
-
 #head {
   overflow: hidden;
   margin: 6rem auto;
