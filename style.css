@@ -1,27 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=PT+Serif:wght@400;700&family=Poppins:wght@400;600&display=swap");
 
-/* 
-font-family: 'Montserrat', sans-serif;
-font-family: 'Poppins', sans-serif;
-font-family: 'PT Serif', serif;
-*/
-html {
-  --webkit-box-sizing: border-box;
-  --moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-*,
-*::before,
-*::after {
-  --webkit-box-sizing: inherit;
-  --moz-box-sizing: inherit;
-  box-sizing: inherit;
-}
-
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -38,7 +20,7 @@ body {
 
 /* Header */
 
-header {
+#head {
   overflow: hidden;
   margin: 6rem auto;
   display: flex;
@@ -52,36 +34,30 @@ h1 {
   font-size: 36px;
   line-height: 48px;
   letter-spacing: -0.045em;
-
-  color: #000000;
 }
 
 #about {
-  width: 450px;
+  max-width: 439px;
+  font-family: "Poppins", sans-serif;
+  text-align: left;
 }
 
 #about h4 {
-  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
   line-height: 27px;
 
   text-transform: uppercase;
-
-  color: #000000;
 }
 
-#about p {
-  padding-top: 1.5rem;
+#about > p {
+  padding-top: 0.5rem;
 
-  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 27px;
-
-  color: #000000;
 }
 
 /* Main Content */
@@ -94,6 +70,7 @@ h1 {
 #container div:nth-child(2),
 div:nth-child(5) {
   transform: translateY(5rem);
+  margin-top: 0.75rem;
 }
 
 #container > .main-card {
@@ -110,7 +87,6 @@ div:nth-child(5) {
   font-weight: 600;
   font-size: 18px;
   line-height: 27px;
-  color: #000000;
 }
 
 .role {
@@ -125,8 +101,6 @@ div:nth-child(5) {
   padding-left: 0.4rem;
 
   text-transform: uppercase;
-
-  color: #000000;
 }
 
 /* Footer */
@@ -153,4 +127,37 @@ a {
 
 a:hover {
   color: #f7542e;
+}
+
+/* Responsiveness */
+@media only screen and (max-width: 576px) {
+  #head {
+    flex-direction: column;
+  }
+
+  #head h1 {
+    padding-bottom: 3rem;
+    font-size: 2.2rem;
+  }
+
+  #head #about {
+    width: 333px;
+  }
+
+  #about p {
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  #container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  #container div:nth-child(even) {
+    transform: translateY(6rem);
+  }
+
+  #container div:nth-child(5) {
+    transform: none;
+  }
 }
