@@ -39,9 +39,9 @@
 
 Introducing Project:
 
-- Here you can see the <a href="https://{brave-northcutt-c075b5.netlify.app/}">Demo</a>
+- Here you can see the Demo.
 - It was a fantastic experience to work with e subtle web page.
-- I have earned the knowledge of css markup. For once I couldn't figure out how to set the #Role perfectly. Then, I have discovered the 'writing-mode: vertical-rl;' property.
+- I have earned the knowledge of CSS markup. For once, I couldn't figure out how to set the #Role perfectly. Then, I have discovered the 'writing-mode: vertical-rl;' property.
 
 ### Built With
 
@@ -58,6 +58,6 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Contact
 
-- GitHub [@sahajunior](https://{github.com/sahajunior})
-- Twitter [@_saha_junior_](https://{twitter.com/_saha_junior_})
-- Instagram [@_saha_junior_](https://{instagram.com/_saha_junior_/})
+- GitHub [@sahajunior](https://github.com/sahajunior)
+- Twitter [@_saha_junior_](https://twitter.com/_saha_junior_)
+- Instagram [@_saha_junior_](https://instagram.com/_saha_junior_/)
