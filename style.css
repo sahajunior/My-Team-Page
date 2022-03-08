@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=PT+Serif:wght@400;700&family=Poppins:wght@400;600&display=swap");
+
+/* 
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'PT Serif', serif;
+*/
+html {
+  --webkit-box-sizing: border-box;
+  --moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  --webkit-box-sizing: inherit;
+  --moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  max-width: 1000px;
+  background: #fafafa;
+  margin: 0 auto;
+  scroll-behavior: smooth;
+}
+
+#main-container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* Header */
+
+header {
+  overflow: hidden;
+  margin: 6rem auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+h1 {
+  font-family: "PT Serif", serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: -0.045em;
+
+  color: #000000;
+}
+
+#about {
+  width: 450px;
+}
+
+#about h4 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+
+  text-transform: uppercase;
+
+  color: #000000;
+}
+
+#about p {
+  padding-top: 1.5rem;
+
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+
+  color: #000000;
+}
+
+/* Main Content */
+#container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2.5rem;
+}
+
+#container div:nth-child(2),
+div:nth-child(5) {
+  transform: translateY(5rem);
+}
+
+#container > .main-card {
+  display: flex;
+}
+
+#container .initials > img {
+  width: 100%;
+}
+
+.name {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  color: #000000;
+}
+
+.role {
+  writing-mode: vertical-rl;
+
+  font-family: "PT Serif", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+
+  padding-left: 0.4rem;
+
+  text-transform: uppercase;
+
+  color: #000000;
+}
+
+/* Footer */
+footer {
+  margin: 15rem 0rem 1rem 0rem;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+
+  text-align: center;
+
+  color: #a9a9a9;
+}
+
+a {
+  text-decoration: none;
+  color: #a9a9a9;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #f7542e;
+}
