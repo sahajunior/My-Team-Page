@@ -6,11 +6,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://{brave-northcutt-c075b5.netlify.app/}">
+    <a href="https://brave-northcutt-c075b5.netlify.app/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{devchallenges.io/solutions/jMdihUCl4OH55bvaxYfu}">
+    <a href="https://devchallenges.io/solutions/jMdihUCl4OH55bvaxYfu">
       Solution
     </a>
     <span> | </span>
