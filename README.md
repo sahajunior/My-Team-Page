@@ -33,9 +33,9 @@
 
 ### Screenshots
 
-| Desktop View (Width: 1280px)                               | Tablet View (Width: 912px)                                                             | Mobile View (Width: 390px)                                                                                                                              |
-| ---------------------------------------------------------- | -------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![Desktop View (1280px)](./Attachments/Desktop%20View.PNG) | ![Surface Pro 7 View (912px)](<./Attachments/Tablet%20View%20(Surface%20Pro%207).PNG>) | ![iPhone 12 Pro View (375px)](<./Attachments/Phone%20View(iPhone%2012%20Pro)%20-%201.PNG>)(<./Attachments/Phone%20View(iPhone%2012%20Pro)%20-%202.PNG>) |
+| Desktop View (Width: 1280px)                               | Tablet View (Width: 912px)                                                             | Mobile View (Width: 390px)                                                                 |
+| ---------------------------------------------------------- | -------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
+| ![Desktop View (1280px)](./Attachments/Desktop%20View.PNG) | ![Surface Pro 7 View (912px)](<./Attachments/Tablet%20View%20(Surface%20Pro%207).PNG>) | ![iPhone 12 Pro View (375px)](<./Attachments/Phone%20View(iPhone%2012%20Pro)%20-%201.PNG>) |
 
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
