@@ -1,5 +1,3 @@
-<!-- Please update value in the {}  -->
-
 <h1 align="center">My Team Page</h1>
 
 <div align="center">
@@ -16,8 +14,6 @@
   </h3>
 </div>
 
-<!-- TABLE OF CONTENTS -->
-
 ## Table of Contents
 
 - [Overview](#overview)
@@ -26,8 +22,6 @@
 - [Features](#features)
 - [Acknowledgements](#acknowledgements)
 - [Contact](#contact)
-
-<!-- OVERVIEW -->
 
 ## Overview
 
